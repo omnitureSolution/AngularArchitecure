@@ -1,0 +1,31 @@
+<div class="left-sidenav">
+      <div class="main-menu-inner">
+            <div class="menu-body">
+                  <h6 class="menu-title"> <img src="../../../../assets/images/back-button.svg"
+                              class="btn-back">Operations</h6>
+                  <ul class="nav">
+                        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >
+                              <img src="../../../../assets/images/dashboard.svg" class="menu-icon" >
+                              <a class="nav-link" [routerLink]="['/dashboard']">Dashboard</a>
+                        </li>
+                        <!-- <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                              <img src="../../../../assets/images/reports.svg" class="menu-icon">
+                              <a class="nav-link" [routerLink]="['/dashboard/addproperty']">Reports</a>
+                        </li> -->
+                        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" *ngIf="ismanager || ishr">
+                              <img src="../../../../assets/images/users.svg" class="menu-icon">
+                              <a class="nav-link" [routerLink]="['/users']">Users</a>
+                        </li>
+                        <!-- <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                              <img src="../../../../assets/images/status.svg" class="menu-icon">
+                              <a class="nav-link" [routerLink]="['/dashboard']">Status</a>
+                        </li> -->
+
+                        <!-- <li class="nav-item margin-collapse">
+                              <img src="../../../../assets/images/collapse.svg" class="menu-icon">
+                              <a class="nav-link" href="#">COLLAPSE</a>
+                        </li> -->
+                  </ul>
+            </div>
+      </div>
+</div>

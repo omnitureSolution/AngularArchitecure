@@ -1,0 +1,123 @@
+<div class="topbar">
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="topbar-left">
+      <a routerLink="./" class="logo">
+        <!-- <span><img src="assets/images/users/logo-sm.svg" alt="logo-small" class="logo-sm"> </span> -->
+        <span><img src="assets/images/Let-alliance-logo.svg" alt="logo-large" class="logo-lg"></span>
+      </a>
+      <button class="button-menu-mobile waves-effect waves-light" (click)="togglediv()"><i
+          class="la la-bars"></i></button>
+    </div>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="la la-cog"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="list-unstyled topbar-nav mb-0">
+        <li class="hide-phone app-search">
+          <form role="search" class=""><input type="text" placeholder="Search..." class="form-control">
+            <a href=""><i class="la la-search"></i></a>
+          </form>
+        </li>
+      </ul>
+      <ul class="list-unstyled topbar-nav ml-auto topbar-nav-right mb-0 float-right hide-when-toogle">
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link position-relative cursor-pointer notification-area" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="la la-bell fs-28 notification-bell"></i>
+            <span class="notification-count">10</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right py-0 overflow-hidden" style="width: 300px;">
+            <div class="px-3 py-3">
+              <h6 class="fs-15 text-muted m-0">You have <strong class="text-primary">10</strong>
+                notifications.</h6>
+            </div>
+            <div style="max-height: 400px; overflow: auto;">
+              <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action">
+                  <div class="form-row align-items-center">
+                    <div class="col pl-0">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h4 class="mb-0 fs-15 font-weight-semibold text-uppercase">{{userName}}</h4>
+                        </div>
+                        <div class="text-right text-muted">
+                          <small>14-11-2019 10:00 PM</small>
+                        </div>
+                      </div>
+                      <p class="fs-13 mb-0">This is test notification</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <a class="dropdown-item text-center text-primary font-weight-bold py-3 fs-13 cursor-pointer">Mark All as
+              Read</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="left-fa-icon"><i class="la la-link fs-19"></i></span> <span
+              class="mb-0 fs-14 text-uppercase">Quick Links</span><span class="right-fa-icon"><i
+                class="la la-angle-down"></i></span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item">
+              <i class="la la-user"></i>
+              <span>My Profile</span>
+            </a>
+            <a class="dropdown-item">
+              <i class="la la-gear"></i>
+              <span>Settings</span>
+            </a>
+            <a class="dropdown-item">
+              <i class="la la-question-circle"></i>
+              <span>Support</span>
+            </a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="left-fa-icon"><i class="la la-question-circle fs-19"></i></span> <span
+              class="mb-0 fs-14 text-uppercase">Help</span><span class="right-fa-icon"><i
+                class="la la-angle-down"></i></span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item">
+              <i class="la la-user"></i>
+              <span>My Profile</span>
+            </a>
+            <a class="dropdown-item">
+              <i class="la la-gear"></i>
+              <span>Settings</span>
+            </a>
+            <a class="dropdown-item">
+              <i class="la la-question-circle"></i>
+              <span>Support</span>
+            </a>
+          </div>
+        </li> -->
+
+        <li class="nav-item">
+          <a class="nav-link">
+            <span class="left-fa-icon"><i class="la la-user fs-19"></i></span><span
+              class="mb-0 fs-14 text-uppercase">{{userName}}</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link cursor-pointer" [routerLink]="['/dashboard/profile']">
+            <span class="left-fa-icon"><i class="la la-id-card fs-19"></i></span><span
+              class="mb-0 fs-14 text-uppercase">My Profile</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="logout()">
+            <span class="left-fa-icon"><i class="la la-sign-out-alt fs-19"></i></span><span
+              class="mb-0 fs-14 text-uppercase">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

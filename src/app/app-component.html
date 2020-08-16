@@ -1,0 +1,23 @@
+<div class="full-height">
+    <app-loading></app-loading>
+    <router-outlet></router-outlet>
+</div>
+
+<div [hidden]="!isShowingRouteLoadIndicator" class="overlay">
+    <div class="sk-folding-cube">
+        <img src="assets/images/users/loader.svg" width="100" height="100" alt="">
+    </div>
+</div>
+
+<style>
+    .overlay {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(74, 74, 74, .8);
+        z-index: 99999;
+    }
+</style>

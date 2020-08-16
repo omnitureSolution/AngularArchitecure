@@ -1,0 +1,21 @@
+<svg version="1.1" id="L3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+<circle fill="#fff" stroke="#FF8080" stroke-width="4" cx="50" cy="50" r="44" style="opacity:1;"/>
+  <circle fill="#35B7B6" stroke="#35B7B6" stroke-width="3" cx="8" cy="54" r="6" >
+    <animateTransform
+      attributeName="transform"
+      dur="2s"
+      type="rotate"
+      from="0 50 48"
+      to="360 50 52"
+      repeatCount="indefinite" />
+    
+  </circle>
+ <g id="Group_896" data-name="Group 896" transform="translate(-6835.845 1393.923)">
+    <path id="Path_70" data-name="Path 70" d="M141.6,13.2" transform="translate(6770.687 -1358.919)" fill="#cf3229" fill-rule="evenodd"/>
+    <path id="Path_75" data-name="Path 75" d="M125.8,10.2h5.654v7.861L125.8,16.406" transform="translate(6764.696 -1360.056)" fill="#cf3229" fill-rule="evenodd"/>
+    <path id="Path_74" data-name="Path 74" d="M99.741,12.2,98.5,15.786c28.41-1.931,61.509,5.654,54.338,20.135C162.906,22.13,142.632,12.338,99.741,12.2Z" transform="translate(6754.345 -1359.298)" fill="#9d9d9c" fill-rule="evenodd"/>
+    <path id="Path_82" data-name="Path 82" d="M107.828,17.7,107,20.32c20.273-1.379,43.994,4.137,38.892,14.343C153.063,24.872,138.582,17.838,107.828,17.7Z" transform="translate(6757.568 -1357.213)" fill="#cf3229" fill-rule="evenodd"/>
+    <path id="Path_83" data-name="Path 83" d="M131.19,0,109.4,17.239l3.586.276,18.2-14.757,13.378,10.619V24.824l2.345,1.517V15.308l3.586,2.9h3.31Z" transform="translate(6758.478 -1363.923)" fill="#cf3229" fill-rule="evenodd"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1219" data-name="Group 1219" transform="translate(-1137 -495)">
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="32" cy="32" r="32" transform="translate(1137 495)" fill="rgba(253,95,118,0.2)"/>
+    <g id="Group_1218" data-name="Group 1218" transform="translate(38 -127)">
+      <g id="Group_1211" data-name="Group 1211" transform="translate(1114.994 637.995)">
+        <g id="Group_1210" data-name="Group 1210">
+          <path id="Path_974" data-name="Path 974" d="M7.684,27.578H3.546a1.187,1.187,0,0,1-.935-.444,1.221,1.221,0,0,1-.248-1.024,12.911,12.911,0,0,1,12.3-10.224c.1,0,.2.006.3.006s.2,0,.3-.006a12.8,12.8,0,0,1,4.221.813,1.169,1.169,0,0,0,.822-2.188q-.29-.109-.584-.205a7.946,7.946,0,1,0-9.512,0A15.2,15.2,0,0,0,.076,25.634a3.55,3.55,0,0,0,3.47,4.281H7.684a1.169,1.169,0,0,0,0-2.337ZM9.349,7.946a5.609,5.609,0,1,1,5.882,5.6c-.091,0-.182,0-.273,0l-.274,0A5.616,5.616,0,0,1,9.349,7.946Z" transform="translate(0)" fill="#fd5f76"/>
+        </g>
+      </g>
+      <g id="check-mark-button" transform="translate(1133.91 654.91)">
+        <g id="Group_1217" data-name="Group 1217" transform="translate(0 0)">
+          <path id="Path_984" data-name="Path 984" d="M7.65,0A7.65,7.65,0,1,0,15.3,7.65,7.658,7.658,0,0,0,7.65,0Zm0,14.066A6.417,6.417,0,1,1,14.066,7.65,6.424,6.424,0,0,1,7.65,14.066Z" transform="translate(0 0)" fill="#fd5f76" stroke="#fd5f76" stroke-width="0.6"/>
+          <path id="Path_985" data-name="Path 985" d="M21.071,18.493,17.5,22.064l-1.307-1.307a.616.616,0,0,0-.872.872l1.742,1.742a.616.616,0,0,0,.872,0l4.007-4.007a.616.616,0,0,0-.872-.872Z" transform="translate(-10.982 -13.283)" fill="#fd5f76" stroke="#fd5f76" stroke-width="0.6"/>
+        </g>
+      </g>
+      <path id="Path_986" data-name="Path 986" d="M7447.361,6391.619a11.046,11.046,0,0,1,3.766,2.615" transform="translate(-6312.617 -5738)" fill="none" stroke="#fd5f76" stroke-width="2.2"/>
+      <g id="Rectangle_840" data-name="Rectangle 840" transform="translate(1121 666)" fill="#fd5f76" stroke="#fd5f76" stroke-width="3">
+        <rect id="fill" width="9" height="2" rx="1" stroke="none"/>
+        <path d="M0,0.5h9M7.5,0v2M9,1.5h-9M1.5,2v-2" fill="none" clip-path="url(#clip)"/>
+      </g>
+    </g>
+  </g>
+</svg>

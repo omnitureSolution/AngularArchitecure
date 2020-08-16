@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Group_1266" data-name="Group 1266" transform="translate(-961 -862)">
+    <circle id="Ellipse_29" data-name="Ellipse 29" cx="32" cy="32" r="32" transform="translate(961 862)" fill="rgba(53,183,182,0.2)"/>
+    <g id="Group_1265" data-name="Group 1265">
+      <path id="pound-sterling_1_" data-name="pound-sterling (1)" d="M76.555,8.516V7.664a7.664,7.664,0,1,0-15.328,0v5.961H56.118v3.406h4.909A18.51,18.51,0,0,1,58.107,24.6a1.7,1.7,0,0,0,1.417,2.648H74.852V23.844h-12.4a21.856,21.856,0,0,0,2-6.812h5.292V13.625H64.634V7.664a4.258,4.258,0,0,1,8.516,0v.852Z" transform="translate(923.882 879)" fill="#35b7b6"/>
+      <g id="Group_1213" data-name="Group 1213" transform="translate(-79.781 366.02)">
+        <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(1070.781 529.98)" fill="#35b7b6" stroke="#35b7b6" stroke-width="1">
+          <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+          <circle cx="8.5" cy="8.5" r="8" fill="none"/>
+        </g>
+        <text id="_0" data-name="0" transform="translate(1074.781 542.98)" fill="#fff" font-size="15" font-family="BerlinSansFB-Reg, Berlin Sans FB"><tspan x="0" y="0">0</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

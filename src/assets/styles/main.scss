@@ -1,0 +1,211 @@
+@import "base/base";
+@import "components/components";
+
+//font-size and weight
+.global-fs {
+  @include rem(font-size, 0.845rem);
+}
+.fs-11 {
+  @include rem(font-size, 0.65rem);
+}
+.fs-12 {
+  @include rem(font-size, 0.75rem);
+}
+.fs-13 {
+  @include rem(font-size, 0.8125rem);
+}
+.fs-14 {
+  @include rem(font-size, 0.875rem);
+}
+.fs-15 {
+  @include rem(font-size, 0.9375rem);
+}
+.fs-16 {
+  @include rem(font-size, 1rem);
+}
+.fs-17 {
+  @include rem(font-size, 1.0625rem);
+}
+.fs-18 {
+  @include rem(font-size, 1.125rem);
+}
+.fs-19 {
+  @include rem(font-size, 1.1875rem);
+}
+.fs-20 {
+  @include rem(font-size, 1.25rem);
+}
+.fs-21 {
+  @include rem(font-size, 1.3125rem);
+}
+.fs-22 {
+  @include rem(font-size, 1.375rem);
+}
+.fs-23 {
+  @include rem(font-size, 1.4375rem);
+}
+.fs-24 {
+  @include rem(font-size, 1.5rem);
+  line-height: 1em;
+}
+.fs-28 {
+  @include rem(font-size, 1.7375rem);
+}
+.fs-30 {
+  @include rem(font-size, 1.875rem);
+  line-height: 1em;
+}
+.font-weight-semibold {
+  font-weight: 600;
+}
+//End font-size and weight
+
+//borders
+.gray-link {
+  color: $text-primary;
+  text-decoration: underline;
+}
+.border-green {
+  border: 1px solid $text-green;
+}
+.border-darkgray {
+  border: 1px solid $text-primary;
+}
+.border-bottom-dashed {
+  border: 1px dashed $border-darkgray;
+}
+//End borders
+
+.flex-left-right-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-box {
+  box-shadow: -1px 1px 5px -2px rgba(0, 0, 0, 0.75);
+  background-color: $white-bg;
+  @include padding(25px, 25px, 25px, 25px);
+}
+
+//Peragraph, lineheight and titles
+.small-black-text {
+  font-size: $fs-small;
+  color: $black;
+  text-align: justify;
+}
+.lh-0 {
+  line-height: 0;
+}
+.lh-12 {
+  line-height: 12px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+
+.section-title {
+  font-size: $fs-normal;
+  font-weight: 600;
+  color: $black;
+  text-align: left;
+}
+
+.text-normal {
+  font-size: $fs-normal;
+  color: $text-secondary;
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+//End Peragraph, lineheight and titles
+
+//Footer
+.bottom-box {
+  -webkit-box-shadow: 0px -3px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -3px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -3px 5px -5px rgba(0, 0, 0, 0.75);
+  margin-top: 50px;
+  .title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
+.app-sidebar-desk {
+  display: none;
+}
+//end Footer
+
+.gray-input-box {
+  background-color: $lightgray-bg;
+  padding: 5px 10px;
+  .form-group {
+    margin-bottom: 0;
+  }
+  .secondary-title {
+    font-weight: 600;
+  }
+  .auto-complete {
+    margin-top: 5px;
+    .print-address {
+      margin-top: 5px;
+    }
+  }
+}
+.label-with-icon {
+  .tenant-icon {
+    float: left;
+    padding-right: 10px;
+    img {
+      width: 18px;
+    }
+    .dob-icon {
+      margin-top: -9px;
+    }
+  }
+  .tenant-detail {
+    float: left;
+  }
+}
+.form-row-gap {
+  margin-bottom: 6px;
+}
+.form-row-gap:last-child {
+  margin-bottom: 0;
+}
+
+.ctrl-no-lbl {
+  margin-top: 24px;
+}
+
+.btn-icon {
+  border-radius: 3px !important;
+  margin-top: 24px;
+  padding: 3px 10px 2px !important;
+  i {
+    font-size: 22px;
+    color: $text-white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .m-float-left {
+    float: left !important;
+  }
+  .m-float-right {
+    float: right !important;
+  }
+  .content-box {
+    @include padding(15px, 20px, 25px, 15px);
+  }
+  .m-top-10 {
+    margin-top: 10px;
+  }
+  .app-sidebar-mobile {
+    display: none;
+  }
+  .app-sidebar-desk {
+    display: block;
+  }
+}
